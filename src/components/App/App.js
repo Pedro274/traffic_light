@@ -51,8 +51,6 @@ function App() {
         }
     }, 3000)
 
-    
-
     return (
         <Fragment>
             <div className="trafficlight">
@@ -64,10 +62,10 @@ function App() {
                 <div className={activeGreen} onClick={() => handleClick('green')}></div>
             </div>
             <div className="buttonContainer">
-            <input type="checkbox" id="switch" onClick={handleToggleAuto} /><label for="switch">Toggle</label>
+                <input type="checkbox" id="switch" onClick={handleToggleAuto}/>
+                <label for="switch">Toggle</label>
             </div>
         </Fragment>
-
     );
 }
 
